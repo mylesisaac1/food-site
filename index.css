@@ -1,0 +1,44 @@
+.navigation {
+    width: 99vw;
+    border: 1px solid black;
+    background-color: rgb(230, 146, 10);
+    justify-content: space-around;
+    display: flex;
+    height: 30px;
+    border-radius: 5px;
+    top: 0%;
+    left:0%;
+    align-items: center;
+    font-weight: 700;
+
+}
+a {
+    text-decoration: none;
+}
+.header{
+    background-color: orange;
+    text-align: center;
+    
+}
+.fooditem{
+    background-color: rgb(2, 48, 33);
+    border: 10px solid rgb(207, 126, 20) ;
+    padding: 20px;
+    width: 330px;
+    height:230px;
+    color: aqua;   
+}
+.foodlist{
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
+}
+img{
+    width: 320px;
+    height: 200px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(235, 176, 15);
+    
+}
